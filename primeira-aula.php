@@ -1,8 +1,8 @@
 <?php
 
-$nome = 'Vinicio Lima';
+$nome = 'Vinicius dos Santos';
 
-$ehDaMinhaFamilia = str_contains($nome, 'Lima');
+$ehDaMinhaFamilia = str_contains($nome, 'Dias');
 
 if ($ehDaMinhaFamilia) {
     echo "$nome é da minha família" . PHP_EOL;
